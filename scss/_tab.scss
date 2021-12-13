@@ -1,0 +1,44 @@
+body {
+    background-color: #eee;
+    font-size: 1.2rem;
+}
+
+
+.tab-menu-wrapper {
+    padding: 50px 0;
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: #fefefe;
+    .tab-menu__list {
+        display: flex;
+        flex-wrap: wrap;
+        &-item {
+            padding: 20px 30px;
+            background-color: gray;
+            margin-right: 5px;
+        }
+    }
+    .menu {
+        margin-top: 40px;
+        margin-left: 20px;
+        margin-right: 20px;
+        &-title {
+            font-size: 1.6rem;
+            margin-bottom: 30px;
+        }
+        &-list {
+            &__item {
+                padding-bottom: 10px;
+                padding-left: 10px;
+                border-bottom: 1px solid gray;
+                margin-bottom: 10px;
+            }
+        }
+    }
+    #drink {
+        display: none;
+    }
+    #dinner {
+        display: none;
+    }
+}

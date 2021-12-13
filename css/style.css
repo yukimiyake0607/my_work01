@@ -1,1 +1,41 @@
-@impo;/*# sourceMappingURL=style.css.map */
+body {
+  background-color: #eee;
+  font-size: 1.2rem;
+}
+
+.tab-menu-wrapper {
+  padding: 50px 0;
+  max-width: 960px;
+  margin: 0 auto;
+  background-color: #fefefe;
+}
+.tab-menu-wrapper .tab-menu__list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.tab-menu-wrapper .tab-menu__list-item {
+  padding: 20px 30px;
+  background-color: gray;
+  margin-right: 5px;
+}
+.tab-menu-wrapper .menu {
+  margin-top: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.tab-menu-wrapper .menu-title {
+  font-size: 1.6rem;
+  margin-bottom: 30px;
+}
+.tab-menu-wrapper .menu-list__item {
+  padding-bottom: 10px;
+  padding-left: 10px;
+  border-bottom: 1px solid gray;
+  margin-bottom: 10px;
+}
+.tab-menu-wrapper #drink {
+  display: none;
+}
+.tab-menu-wrapper #dinner {
+  display: none;
+}/*# sourceMappingURL=style.css.map */
