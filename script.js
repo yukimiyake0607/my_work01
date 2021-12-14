@@ -19,5 +19,15 @@ $( function() {
         $(this).addClass('current');
 
         return false;
-    })
+    });
+
+
+
+
+
+
+    // burger-btnを押したらクリックイベント
+    $('.burger-btn').click( function() {
+        $('.nav').slideToggle(200);
+    });
 });
