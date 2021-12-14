@@ -70,6 +70,19 @@ body {
 .nav-wrapper__wrapper .burger-btn .bars .bar-bottom {
   top: 25px;
 }
+.nav-wrapper__wrapper .cross .bars .bar-top {
+  top: 15px;
+  transform: rotate(45deg);
+  transition: 0.3s;
+}
+.nav-wrapper__wrapper .cross .bars .bar-mid {
+  opacity: 0;
+}
+.nav-wrapper__wrapper .cross .bars .bar-bottom {
+  top: 15px;
+  transform: rotate(-45deg);
+  transition: 0.3s;
+}
 .nav-wrapper .nav {
   display: none;
   background-color: #3da73d;

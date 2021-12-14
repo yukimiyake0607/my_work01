@@ -28,6 +28,14 @@ $( function() {
 
     // burger-btnを押したらクリックイベント
     $('.burger-btn').click( function() {
+
+        // burger-btnにcrossクラスを追加
+        if ($('.burger-btn').hasClass('cross')) {
+            $(this).removeClass('cross');
+        } else {
+            $(this).addClass('cross');
+        }
+
         $('.nav').slideToggle(200);
     });
 });
