@@ -1,0 +1,35 @@
+.nav-wrapper {
+    max-width: 960px;
+    margin: 100px auto 0;
+    background-color: green;
+    &__wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px;
+        .burger-btn {
+            display: block;
+            width: 30px;
+            height: 30px;
+            position: relative;
+            .bars {
+                .bar {
+                    display: block;
+                    background-color: #fff;
+                    width: 30px;
+                    height: 2px;
+                    position: absolute;
+                }
+                .bar-top {
+                    top: 5px;
+                }
+                .bar-bottom {
+                    top: 25px;
+                }
+            }
+        }
+    }
+    .nav {
+        display: none;
+    }
+}

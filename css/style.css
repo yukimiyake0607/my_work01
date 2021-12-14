@@ -38,4 +38,38 @@ body {
   padding-left: 10px;
   border-bottom: 1px solid #EE5508;
   margin-bottom: 10px;
+}
+
+.nav-wrapper {
+  max-width: 960px;
+  margin: 100px auto 0;
+  background-color: green;
+}
+.nav-wrapper__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+.nav-wrapper__wrapper .burger-btn {
+  display: block;
+  width: 30px;
+  height: 30px;
+  position: relative;
+}
+.nav-wrapper__wrapper .burger-btn .bars .bar {
+  display: block;
+  background-color: #fff;
+  width: 30px;
+  height: 2px;
+  position: absolute;
+}
+.nav-wrapper__wrapper .burger-btn .bars .bar-top {
+  top: 5px;
+}
+.nav-wrapper__wrapper .burger-btn .bars .bar-bottom {
+  top: 25px;
+}
+.nav-wrapper .nav {
+  display: none;
 }/*# sourceMappingURL=style.css.map */
