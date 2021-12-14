@@ -72,4 +72,12 @@ body {
 }
 .nav-wrapper .nav {
   display: none;
+  background-color: #3da73d;
+  padding: 30px 50px;
+}
+.nav-wrapper .nav-list {
+  margin-bottom: 10px;
+}
+.nav-wrapper .nav-list:last-child {
+  margin-bottom: 0;
 }/*# sourceMappingURL=style.css.map */

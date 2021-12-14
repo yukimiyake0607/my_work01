@@ -31,5 +31,13 @@
     }
     .nav {
         display: none;
+        background-color: rgb(61, 167, 61);
+        padding: 30px 50px;
+        &-list {
+            margin-bottom: 10px;
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
     }
 }
