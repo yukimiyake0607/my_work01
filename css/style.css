@@ -13,10 +13,14 @@ body {
   display: flex;
   flex-wrap: wrap;
 }
-.tab-menu-wrapper .tab-menu__list-item {
+.tab-menu-wrapper .tab-menu__list-item a {
+  display: block;
   padding: 20px 30px;
   background-color: gray;
   margin-right: 5px;
+}
+.tab-menu-wrapper .tab-menu__list-item .current {
+  background-color: #fff;
 }
 .tab-menu-wrapper .menu {
   margin-top: 40px;
@@ -32,10 +36,4 @@ body {
   padding-left: 10px;
   border-bottom: 1px solid gray;
   margin-bottom: 10px;
-}
-.tab-menu-wrapper #drink {
-  display: none;
-}
-.tab-menu-wrapper #dinner {
-  display: none;
 }/*# sourceMappingURL=style.css.map */
