@@ -1,14 +1,15 @@
 body {
     background-color: #eee;
     font-size: 1.2rem;
+    color: #fff;
 }
 
 
 .tab-menu-wrapper {
-    padding: 50px 0;
+    padding: 50px 0 0;
     max-width: 960px;
     margin: 0 auto;
-    background-color: #fefefe;
+    background-color: #EF9D00;
     .tab-menu__list {
         display: flex;
         flex-wrap: wrap;
@@ -16,18 +17,19 @@ body {
             a {
                 display: block;
                 padding: 20px 30px;
-                background-color: gray;
+                background-color: #EE5508;
                 margin-right: 5px;
             }
             .current {
                 background-color: #fff;
+                color: #EF9D00;
             }
         }
     }
     .menu {
-        margin-top: 40px;
-        margin-left: 20px;
-        margin-right: 20px;
+        padding: 40px 30px;
+        background-color: #fff;
+        color: #EF9D00;
         &-title {
             font-size: 1.6rem;
             margin-bottom: 30px;
@@ -36,7 +38,7 @@ body {
             &__item {
                 padding-bottom: 10px;
                 padding-left: 10px;
-                border-bottom: 1px solid gray;
+                border-bottom: 1px solid #EE5508;
                 margin-bottom: 10px;
             }
         }
