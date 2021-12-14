@@ -12,6 +12,12 @@ $( function() {
         const a = $(this).attr ("href");
         $(a).show();
 
+        // 現在のcurrentクラスを削除
+        $('.current').removeClass('current');
+
+        // 選択されたタブにcurrentクラスを追加
+        $(this).addClass('current');
+
         return false;
     })
 });
