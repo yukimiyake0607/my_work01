@@ -100,11 +100,11 @@ body {
   background-color: #d4d414;
   margin: 100px auto 0;
   text-align: center;
+  padding: 30px 0;
 }
 .alert-wrapper .title {
   font-size: 1.8rem;
   font-weight: bold;
-  padding-top: 30px;
   margin-bottom: 20px;
   color: #333;
 }
@@ -112,4 +112,34 @@ body {
   width: 150px;
   height: 40px;
   background-color: yellowgreen;
+  cursor: pointer;
+}
+.alert-wrapper .bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.alert-wrapper .bg .alert-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  color: #333;
+  width: 300px;
+  padding: 30px;
+  border-radius: 3px;
+}
+.alert-wrapper .bg .alert-box .good-job {
+  margin-bottom: 10px;
+}
+.alert-wrapper .bg .alert-box .ok {
+  background-color: yellowgreen;
+  cursor: pointer;
+  width: 100px;
+  padding: 10px 0;
+  border-radius: 3px;
 }/*# sourceMappingURL=style.css.map */
