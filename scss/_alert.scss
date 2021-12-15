@@ -1,0 +1,18 @@
+.alert-wrapper {
+    max-width: 960px;
+    background-color: rgb(212, 212, 20);
+    margin: 100px auto 0;
+    text-align: center;
+    .title {
+        font-size: 1.8rem;
+        font-weight: bold;
+        padding-top: 30px;
+        margin-bottom: 20px;
+        color: #333;
+    }
+    .alert-btn {
+        width: 150px;
+        height: 40px;
+        background-color: yellowgreen;
+    }
+}

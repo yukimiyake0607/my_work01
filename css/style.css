@@ -93,4 +93,23 @@ body {
 }
 .nav-wrapper .nav-list:last-child {
   margin-bottom: 0;
+}
+
+.alert-wrapper {
+  max-width: 960px;
+  background-color: #d4d414;
+  margin: 100px auto 0;
+  text-align: center;
+}
+.alert-wrapper .title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  padding-top: 30px;
+  margin-bottom: 20px;
+  color: #333;
+}
+.alert-wrapper .alert-btn {
+  width: 150px;
+  height: 40px;
+  background-color: yellowgreen;
 }/*# sourceMappingURL=style.css.map */
