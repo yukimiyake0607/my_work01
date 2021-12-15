@@ -38,4 +38,21 @@ $( function() {
 
         $('.nav').slideToggle(200);
     });
+
+
+
+
+
+
+
+    // .bgを非表示にする
+    $('.bg').hide();
+
+    $('.alert-btn').click( function () {
+        $('.bg').fadeIn(300);
+    });
+
+    $('.ok').click( function () {
+        $('.bg').fadeOut(300);
+    })
 });
