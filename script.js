@@ -55,4 +55,22 @@ $( function() {
     $('.ok').click( function () {
         $('.bg').fadeOut(300);
     })
+
+
+
+
+
+
+
+
+
+    // viewer
+    $('.img-item > a').click ( function() {
+
+        const img = $(this).attr("href");
+
+        $('figure > img').attr("src", img);
+
+        return false;
+    });
 });
