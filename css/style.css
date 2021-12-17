@@ -228,11 +228,9 @@ body {
 }
 .dropdown-wrapper .dropdown-list__item-list {
   border-top: 1px solid #fff;
-  display: none;
 }
 .dropdown-wrapper .dropdown-list__item-item {
-  display: block;
-  padding: 15px 0;
+  padding: 15px 0 0;
   border-bottom: 1px solid #fff;
   font-size: 1.2rem;
 }
