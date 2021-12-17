@@ -83,9 +83,6 @@ $( function() {
 
     $('.dropdown-list__item').hover( function () {
 
-        $('.dropdown-list__item-list:not(:animated)', this).slideDown();
-    },function (){
-        $('.dropdown-list__item-list', this).slideUp();
-    }
-    );
+        $(this).children('.dropdown-list__item-list').stop().slideToggle(200);
+    });
 });
