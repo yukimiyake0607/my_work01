@@ -79,5 +79,13 @@ $( function() {
 
 
     // dropdown
-    // $('.dropdown-list__item-list').hide();
+    $('.dropdown-list__item-list').hide();
+
+    $('.dropdown-list__item').hover( function () {
+
+        $('.dropdown-list__item-list:not(:animated)', this).slideDown();
+    },function (){
+        $('.dropdown-list__item-list', this).slideUp();
+    }
+    );
 });

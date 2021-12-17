@@ -17,16 +17,16 @@
     }
     .dropdown-list {
         display: flex;
-        justify-content: space-between;
-        width: 100%;
         &__item {
             background-color: rgb(29, 63, 3);
             border-right: 1px solid #fff;
-            width: 100%;
+            width: calc(100% / 4);
             text-align: center;
             font-size: 1.2rem;
             padding: 15px 0 0;
             font-size: 1.6rem;
+            position: relative;
+            cursor: pointer;
             a {
                 display: block;
                 padding-bottom: 15px;
@@ -35,14 +35,20 @@
                 border-right: none;
             }
             &-list {
-                border-top: 1px solid #fff;
+                position: absolute;
+                left: 0;
+                top: 47px;
+                background-color: rgb(42, 92, 4);
+                width: 100%;
             }
             &-item {
                 padding: 15px 0 0;
-                border-bottom: 1px solid #fff;
+                border-top: 1px solid #fff;
                 font-size: 1.2rem;
+                &:first-of-type {
+                    border-top: 0;
+                }
                 &:last-of-type {
-                    border-bottom: none;
                     padding-bottom: 0;
                 }
             }
