@@ -63,6 +63,14 @@ body {
   transition: 0.3s;
 }
 
+.fixed {
+  position: fixed;
+  width: 100%;
+  padding: 15px 20px;
+  background-color: yellowgreen;
+  opacity: 0.7;
+}
+
 .tab-menu-wrapper {
   padding: 50px 0 0;
   max-width: 960px;
