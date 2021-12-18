@@ -1,7 +1,7 @@
 $( function() {
 
 
-    // header
+    // header-burger-btn
     $('.header-burger-btn').click ( function() {
 
         $( this ).toggleClass('cross');
@@ -10,7 +10,19 @@ $( function() {
 
 
 
+    // スクロールするとヘッダーを固定
+    $(window).scroll( function () {
 
+        const headerHeight = $('.header').Height();
+        const scrollHeight = $(window).scrollTop();
+
+        if (headerHeight < scrollHeight) {
+
+            $('.header').addClass('fixed');
+        } else {
+            $('.header').removeClass('fixed');
+        }
+    });
 
 
 

@@ -16,8 +16,12 @@ body {
   width: 100%;
   padding: 15px 20px;
   background-color: yellowgreen;
+  opacity: 0.7;
   box-sizing: border-box;
-  margin-bottom: 100px;
+  z-index: 100;
+  position: fixed;
+  left: 0;
+  top: 0;
 }
 .header .header-inner {
   display: flex;
@@ -36,6 +40,7 @@ body {
   width: 100%;
   height: 100vh;
   background-color: yellowgreen;
+  opacity: 1;
   z-index: 100;
 }
 .header .header-inner .header-nav .nav-list {
@@ -92,18 +97,10 @@ body {
   transition: 0.3s;
 }
 
-.fixed {
-  position: fixed;
-  width: 100%;
-  padding: 15px 20px;
-  background-color: yellowgreen;
-  opacity: 0.7;
-}
-
 .tab-menu-wrapper {
   padding: 50px 0 0;
   max-width: 960px;
-  margin: 0 auto;
+  margin: 100px auto 0;
   background-color: #EF9D00;
 }
 .tab-menu-wrapper .tab-menu__list {
