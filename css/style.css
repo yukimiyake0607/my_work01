@@ -20,6 +20,10 @@ body {
   align-items: center;
   justify-content: space-between;
 }
+.header .header-inner .site-title {
+  font-size: 3rem;
+  font-weight: bold;
+}
 .header .header-inner .header-nav .nav-list {
   display: none;
 }
