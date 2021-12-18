@@ -44,6 +44,20 @@ body {
 .header .header-inner .burger-btn .bars .bar-bottom {
   top: 22px;
 }
+.header .header-inner .cross .bars .bar-top {
+  top: 15px;
+  transform: rotate(45deg);
+  transition: 0.3s;
+}
+.header .header-inner .cross .bars .bar-mid {
+  opacity: 0;
+  transition: 0.3s;
+}
+.header .header-inner .cross .bars .bar-bottom {
+  top: 15px;
+  transform: rotate(-45deg);
+  transition: 0.3s;
+}
 
 .tab-menu-wrapper {
   padding: 50px 0 0;

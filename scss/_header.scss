@@ -36,5 +36,23 @@
                 }
             }
         }
+        .cross {
+            .bars {
+                .bar-top {
+                    top: 15px;
+                    transform: rotate(45deg);
+                    transition: .3s;
+                }
+                .bar-mid {
+                    opacity: 0;
+                    transition: .3s;
+                }
+                .bar-bottom {
+                    top: 15px;
+                    transform: rotate(-45deg);
+                    transition: .3s;
+                }
+            }
+        }
     }
 }
