@@ -12,6 +12,8 @@ body {
   width: 100%;
   padding: 15px 20px;
   background-color: yellowgreen;
+  box-sizing: border-box;
+  margin-bottom: 100px;
 }
 .header .header-inner {
   display: flex;
@@ -20,6 +22,27 @@ body {
 }
 .header .header-inner .header-nav .nav-list {
   display: none;
+}
+.header .header-inner .burger-btn {
+  width: 30px;
+  height: 30px;
+  position: relative;
+}
+.header .header-inner .burger-btn .bars .bar {
+  width: 30px;
+  height: 2px;
+  background-color: #fff;
+  position: absolute;
+  left: 0;
+}
+.header .header-inner .burger-btn .bars .bar-top {
+  top: 8px;
+}
+.header .header-inner .burger-btn .bars .bar-mid {
+  top: 15px;
+}
+.header .header-inner .burger-btn .bars .bar-bottom {
+  top: 22px;
 }
 
 .tab-menu-wrapper {

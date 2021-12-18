@@ -2,6 +2,8 @@
     width: 100%;
     padding: 15px 20px;
     background-color: yellowgreen;
+    box-sizing: border-box;
+    margin-bottom: 100px;
     .header-inner {
         display: flex;
         align-items: center;
@@ -11,6 +13,28 @@
                 display: none;
             }
         }
-        
+        .burger-btn {
+            width: 30px;
+            height: 30px;
+            position: relative;
+            .bars {
+                .bar {
+                    width: 30px;
+                    height: 2px;
+                    background-color: #fff;
+                    position: absolute;
+                    left: 0;
+                }
+                .bar-top {
+                    top: 8px;
+                }
+                .bar-mid {
+                    top: 15px;
+                }
+                .bar-bottom {
+                    top: 22px;
+                }
+            }
+        }
     }
 }
