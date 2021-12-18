@@ -27,25 +27,25 @@ body {
 .header .header-inner .header-nav .nav-list {
   display: none;
 }
-.header .header-inner .burger-btn {
+.header .header-inner .header-burger-btn {
   width: 30px;
   height: 30px;
   position: relative;
 }
-.header .header-inner .burger-btn .bars .bar {
+.header .header-inner .header-burger-btn .bars .bar {
   width: 30px;
   height: 2px;
   background-color: #fff;
   position: absolute;
   left: 0;
 }
-.header .header-inner .burger-btn .bars .bar-top {
+.header .header-inner .header-burger-btn .bars .bar-top {
   top: 8px;
 }
-.header .header-inner .burger-btn .bars .bar-mid {
+.header .header-inner .header-burger-btn .bars .bar-mid {
   top: 15px;
 }
-.header .header-inner .burger-btn .bars .bar-bottom {
+.header .header-inner .header-burger-btn .bars .bar-bottom {
   top: 22px;
 }
 .header .header-inner .cross .bars .bar-top {
