@@ -5,6 +5,7 @@ $( function() {
     $('.header-burger-btn').click ( function() {
 
         $( this ).toggleClass('cross');
+        $('.header-nav').fadeToggle(500);
     });
 
 
