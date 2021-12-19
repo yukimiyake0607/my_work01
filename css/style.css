@@ -372,18 +372,19 @@ body {
   width: 100vw;
   background-color: rgba 0, 0, 0, 0.4;
 }
-
-.photo {
+#bg .photo {
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
   margin: auto;
+  height: 400px;
+  width: 600px;
 }
-.photo img {
-  height: 600px;
-  width: 700px;
+#bg .photo img {
   -o-object-fit: cover;
      object-fit: cover;
+  width: 600px;
+  height: 400px;
 }/*# sourceMappingURL=style.css.map */

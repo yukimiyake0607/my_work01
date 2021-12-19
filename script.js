@@ -120,7 +120,7 @@ $( function() {
     // modal
     $('.modal-item > a').click (function () {
 
-        alert();
+        
 
         return false;
     });
