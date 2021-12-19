@@ -126,7 +126,15 @@ $( function() {
         $('.photo').html("<img>");
         $('.photo > img').attr("src", $(this).attr("href"));
 
-        
+        $('#bg').click (function () {
+
+            $(this).fadeOut( function () {
+                $(this).remove();
+            });
+            $('.photo').fadeOut( function () {
+                $(this).remove();
+            });
+        });
 
         return false;
     });
