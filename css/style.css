@@ -359,6 +359,7 @@ body {
 .modal-wrapper .modal-list .modal-item img {
   width: 150px;
   height: 100px;
+  border-radius: 10px;
   -o-object-fit: cover;
      object-fit: cover;
 }/*# sourceMappingURL=style.css.map */
