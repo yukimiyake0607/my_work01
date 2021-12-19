@@ -331,4 +331,34 @@ body {
 }
 .dropdown-wrapper .dropdown-list__item-item:last-of-type {
   padding-bottom: 0;
+}
+
+.modal-wrapper {
+  max-width: 960px;
+  margin: 0 auto 100px;
+  background-color: orange;
+  padding: 40px;
+  box-sizing: border-box;
+}
+.modal-wrapper .title {
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.modal-wrapper .modal-list {
+  display: flex;
+  justify-content: center;
+}
+.modal-wrapper .modal-list .modal-item {
+  margin-right: 30px;
+}
+.modal-wrapper .modal-list .modal-item:last-of-type {
+  margin-right: 0;
+}
+.modal-wrapper .modal-list .modal-item img {
+  width: 150px;
+  height: 100px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }/*# sourceMappingURL=style.css.map */

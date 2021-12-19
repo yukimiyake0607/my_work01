@@ -1,0 +1,28 @@
+.modal-wrapper {
+    max-width: 960px;
+    margin: 0 auto 100px; 
+    background-color: orange;
+    padding: 40px;
+    box-sizing: border-box;
+    .title {
+        font-size: 3rem;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .modal-list {
+        display: flex;
+        justify-content: center;
+        .modal-item {
+            margin-right: 30px;
+            &:last-of-type {
+                margin-right: 0;
+            }
+            img {
+                width: 150px;
+                height: 100px;
+                object-fit: cover;
+            }
+        }
+    }
+}
