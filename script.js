@@ -120,6 +120,12 @@ $( function() {
     // modal
     $('.modal-item > a').click (function () {
 
+        $('body').append('<div id="bg">');
+        $('#bg').append('<div class="photo">');
+
+        $('.photo').html("<img>");
+        $('.photo > img').attr("src", $(this).attr("href"));
+
         
 
         return false;
