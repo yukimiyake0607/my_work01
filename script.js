@@ -112,4 +112,16 @@ $( function() {
 
         $(this).children('.dropdown-list__item-list').stop().slideToggle(200);
     });
+
+
+
+
+
+    // modal
+    $('.modal-item > a').click (function () {
+
+        alert();
+
+        return false;
+    });
 });
