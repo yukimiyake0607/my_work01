@@ -387,4 +387,24 @@ body {
      object-fit: cover;
   width: 600px;
   height: 400px;
+}
+
+.caption-wrapper {
+  max-width: 960px;
+  margin: 0 auto 100px;
+}
+.caption-wrapper .caption-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.caption-wrapper .caption-list .caption-item {
+  width: 300px;
+  height: 250px;
+}
+.caption-wrapper .caption-list .caption-item img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }/*# sourceMappingURL=style.css.map */
