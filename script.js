@@ -147,11 +147,11 @@ $( function() {
     // caption
 
     // li要素の最後に<div>を追加
-    const div = $('.caption-item').append("<div>");
-    div.addClass("caption-item__item");
+    $('.caption-item').append("<div>");
+    $('.caption-item > div').addClass('caption-item__item');
 
     // div要素内に画像のキャプションを追加
-    $('.caption-item__item').each( function() {
+    $('.caption-item > div').each( function() {
         const img = $(this).parent().children("img").attr("alt");
         $(this).html("<p>" + img + "</p>");
     });
