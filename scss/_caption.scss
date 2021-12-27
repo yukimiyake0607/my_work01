@@ -17,7 +17,7 @@
                 height: 100%;
                 object-fit: cover;
             }
-            div {
+            .caption-item__item {
                 position: absolute;
                 top: 0;
                 left: 0;
@@ -26,6 +26,12 @@
                 padding: 20px;
                 box-sizing: border-box;
                 background-color: rgba(17, 179, 179, .7);
+                text-align: center;
+                display: none;
+                p {
+                    position: relative;
+                    top: 10px;
+                }
             }
         }
     }
