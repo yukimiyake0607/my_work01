@@ -138,4 +138,32 @@ $( function() {
 
         return false;
     });
+
+
+
+
+
+
+    // caption
+
+    // li要素の最後に<div>を追加
+    const div = $('.caption-item').append("<div>");
+    div.addClass("caption-item__item");
+
+    // div要素内に画像のキャプションを追加
+    $('.caption-item__item').each( function() {
+        const img = $(this).parent().children("img").attr("alt");
+        $(this).html("<p>" + img + "</p>");
+    });
+
+
+    // li要素をマウスホバー
+    $('li').hover ( function () {
+       $(this).children("div").stop().fadeIn(300);
+       $(this).children("div").children("p").stop().animate({"top" : 0}, 300);
+    }, function (){
+
+    $(this).children("div").stop().fadeOut(300);
+    $(this).children("div").children("p").animate({"top" : "10px"}, 300)
+    });
 });
